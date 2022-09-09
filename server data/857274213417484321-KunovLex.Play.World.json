@@ -1,0 +1,56 @@
+{
+    "config": {
+        "rules": {
+            "status": "on",
+            "channels": [
+                857278726232211456
+            ]
+        },
+        "levels": {
+            "status": "off",
+            "channels": [
+                940164241120460800
+            ]
+        },
+        "news": {
+            "status": "on",
+            "channels": [
+                857279880588558386
+            ]
+        },
+        "photo": {
+            "status": "on",
+            "channels": [
+                940164023578681344
+            ]
+        },
+        "check": {
+            "status": "off",
+            "channels": []
+        },
+        "passage": {
+            "status": "on",
+            "channels": [
+                870641631370559498
+            ]
+        },
+        "skills": {
+            "channels": [
+                942696036667883530
+            ],
+            "status": "on"
+        },
+        "colors": {
+            "channels": [
+                942696083476336681
+            ],
+            "status": "on"
+        },
+        "games": {
+            "channels": [
+                942696130381230100
+            ],
+            "status": "on"
+        }
+    }
+}
