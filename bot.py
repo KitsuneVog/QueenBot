@@ -636,7 +636,7 @@ async def lever(ctx, function, status):
             option_type=3,
         ),
         create_option(
-            name='',
+            name='one_reaction',
             description='оставлять одну реакцию?',
             required=True,
             option_type=3,
@@ -652,25 +652,25 @@ async def lever(ctx, function, status):
             ]
         ),
         create_option(
-            name='one_reaction',
-            description='',
+            name='lever',
+            description='использовать как переключатель?',
             required=True,
             option_type=3,
             choices=[
                 create_choice(
-                    name='',
-                    value=''
+                    name='Да',
+                    value='Yes'
                 ),
                 create_choice(
-                    name='',
-                    value=''
+                    name='Нет',
+                    value='No'
                 )
             ]
         )
     ]
 )
 @commands.has_permissions(administrator=True)
-async def role(ctx, role, emoji, , one_reaction):
+async def role(ctx, role, emoji, one_reaction, lever):
     with open(f'server data/{ctx.guild.id}-{ctx.guild.name}.json', 'r') as f:
         config = json.load(f)
 
