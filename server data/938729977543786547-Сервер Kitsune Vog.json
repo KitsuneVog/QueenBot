@@ -1,8 +1,10 @@
 {
     "config": {
         "rules": {
-            "status": "",
-            "channels": []
+            "status": "on",
+            "channels": [
+                956996244314664980
+            ]
         },
         "levels": {
             "status": "",
